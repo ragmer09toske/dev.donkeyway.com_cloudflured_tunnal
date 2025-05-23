@@ -1,0 +1,7 @@
+tunnel: donkeyway-tunnel
+credentials-file: C:\Users\user\.cloudflared\83de5d17-6419-4910-aa12-ff4223ff4f76.json
+
+ingress:
+  - hostname: dev.donkeyway.com
+    service: http://localhost:8000
+  - service: http_status:404
